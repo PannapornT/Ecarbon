@@ -1,0 +1,90 @@
+
+.bg-primary-color{
+    background-color: #121138 ;
+}
+.single-box ul{
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a{
+    text-decoration: none;
+    color: #121138;
+}
+.fotter-color{
+    background:#121138;
+}
+.rounded-part2 {
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.part2-color{
+    background-image: linear-gradient(to right, #121138 ,#1E334C);
+}
+.hero-color{
+    background-image: linear-gradient(#4FBFAA, #121138, #121138);
+}
+.bg-image-hero{
+    background-image: url("Group.svg");
+    background-size: cover;
+}
+.text-primary-color{
+    color: #4FBFAA;
+}
+.bg-map-color{
+    background-image: linear-gradient(to top, #121138 ,#1E334C);
+}
+.map-bg{
+    background-image: url("bgvector.svg");
+    background-size: cover;
+}
+.bg-feedback{
+    background-image: url("bg-feedback.svg");
+    background-size: contain;
+}
+.bg-feedback-light{
+    background-image: url("bg-feedback-green.svg");
+    background-size: contain;
+}
+.bg-feature-color{
+    background-image: linear-gradient( to bottom, #121138 ,#fff);
+}
+.bg-feature-bg2{
+    background-image: url("feature2.svg");
+    background-size: cover;
+}
+.bg-feature-bg3{
+    background-image: url("feature.png");
+    background-size: cover;
+}
+@media screen and (max-width: 576px ) {
+    .font{
+        margin-top: 10%;
+        font-size: small;
+    }
+    .font_hero_below{
+        font-size: xx-small;
+    }
+}
+
+@media screen and (min-width: 576px ) {
+    .font{
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    .font_hero_below{
+        margin-top: 10%;
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 992px ) {
+    .font{
+        margin-top: 15%;
+        font-size: 35px;
+    }
+    .font_hero_below{
+        font-size: large;
+    }
+}

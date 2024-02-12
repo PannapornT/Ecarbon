@@ -2,39 +2,392 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar</title>
+  <link rel="stylesheet" href="stylebt.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="nav-con">
-                <div class="logo">
-                    <img src="./netzeroCrop.png" alt="netzero logo" height="72px" width="72px" />
-                    E-CARBON
-                </div>
-                <div class="nav-con">
-                    <ul class="nav">
-                        <li class="dropdown">
-                            <button class="button-drop">Our products</button>
-                            <div class="dropdown-options">
-                                <a href="#">Satellite</a>
-                                <a href="#">Smart farm</a>
-                            </div>
-                        </li>
-                        <li><a href="#">Solution</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Activities</a></li>
-                        <li><a href="#">News</a></li>
-                    </ul>
-                    <button><a class="button-contact" href="#">Contact us</a></button>
-                </div>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary-color">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand"><img src="netzero_icon.svg" alt="netzero logo" height="72px" width="72px" />eCARBON</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">ผลิตภัณฑ์ และบริการ</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">กิจกรรม</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">ข่าวสาร</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">อื่นๆ</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><button class="btn btn-success btn-outline-light">
+              เข้าสู่ระบบ
+            </button></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><button class="btn btn-success btn-outline-light">
+              ข้อมูลเพิ่มเติม
+            </button></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--finish navbar-->
+  <!-- Hero page-->
+  <div class="container">
+    <div class="row hero-color">
+      <div class="col-lg-6 col-sm-6 bg-image-hero">
+        <div class="single-box">
+          <div class="font fw-bold text-light text-start ms-5">
+            “เกษตรกรยั่งยืน <br>
+            เพิ่มผลผลิต เพิ่มรายได้ <br>
+            ด้วยเทคโนโลยี”
+          </div>
+          <div class="fw-bolder text-primary-color text-center font_hero_below">
+            เราเชื่อมั่นว่าเทคโนโลยีจะพาคุณไปสู่ชีวิตที่ดีขึ้นได้ ด้วย
+            เทคโนโยีดาวเทียมและ AI เพิ่มผลผลิต เสริมสร้างรายได้ และได้ช่วยโลก
+          </div>
+          <div class="mt-5">
+            <button class="btn btn-success btn-outline-light">
+              ข้อมูลเพิ่มเติม
+            </button>
+            <button class="btn btn-success btn-outline-light">
+              สนใจเข้าร่วม
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-6">
+        <div class="single-box">
+          <img src="hero.svg" alt="" class="img-fluid w-100 h-100 clearfix"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--part 2 What is our product-->
+  <div class="container mt-5">
+    <div class="row part2-color rounded-part2">
+      <div class="col-lg-3 col-sm-3">
+        <div class="single-box">
+          <img src="netzero_icon.svg" alt="" height="100%" width="100%" />
+          <div class="text-light">
+            <h1 class="d-flex justify-content-center">eCARBON</h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-sm-9">
+        <div class="single-box">
+          <h3 class="mt-5 text-light">
+            จากสภาพภูมิอากาศที่เปลี่ยนแปลงส่งผลกระทบต่อทั้งคุณภาพเกษตรกร
+            ยังส่งผลให้คุณภาพและปริมาณผลผลิตทาง การเกษตรลงลดด้วย eCARBON
+            จึงเกิดขึ้นเพื่อเป็นตัว ช่วย ในการดูแลการทำเกษตรกร
+            ที่จะทำให้โลกร้อนและได้ผลผลิตน้อย
+            อีกทั้งยังสามารถทำรายได้เพิ่มเติม จากสิ่งที่เรียกว่า Carbon Credit
+            ได้ทั้งพัฒนาคุณภาพชีวิต คุณภาพทางการเงิน และ
+            คุณภาพของสภาพอากาศของโลกเรา
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--feature-->
+  <div class="container clearfix mt-5">
+    <div class="row">
+      <div class="col-lg-4 col-sm-4 bg-feature-color">
+        <div class="single-box ">
+          <div>
+            เทคโนโลยี AI
+          </div>
+          <div>
+            ช่วยวิเคราะห์ หาทางออกแนะนำวิธีการทำให้เกษตรกรเกี่ยวกับการทำเกษตรและการใช้งานได้ 24 ชั่วโมง
+          </div>
+          <div>
+            <img src="feat1.svg" alt="" width=100% height=100% class="clearfix">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-4 bg-feature-color">
+        <div class="single-box ">
+          <div>
+            เทคโนโลยีดาวเทียม
+          </div>
+          <div>
+            ตรวจสอบครอบคลุมทั้งไล่ พร้อมภาพแสดงความเปลี่ยนแปลงที่แม่นยำ
+          </div>
+          <div>
+            <img src="feature2.svg" alt="" width=100% height=100% class="clearfix">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-4 bg-feature-color">
+        <div class="single-box">
+          <div>
+            เติมเต็มช่วยเกษตรกร
+          </div>
+          <div>
+            บริการเสริม ช่วยเหลือและสนับสนุนอุปกรณ์ วัตถุดิบการทำเกษตรในทุกด้านครบวงจร
+          </div>
+          <div>
+            <img src="feature.png" alt="" width=100% height=100% class="clearfix">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- map -->
+  <div class="container mt-5">
+    <div class="row bg-map-color">
+      <div class="map-bg col-lg-6 col-sm-6 ">
+        <div class="single-box">
+          <span class="h2 text-light">วางใจให้กับ</span>
+          <span class="h2"> eCarbon</span>
+          <div>โปร่งใส แม่นยำ พร้อมดูแล เพื่อนคู่คิด พิชิตยอดผลผลิต</div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-6">
+        <img src="test.svg" alt="" class="mt-5 mb-5" />
+      </div>
+    </div>
+  </div>
+
+  <!--feed back-->
+  <div class="container mt-5 mb-5 ">
+    <div>เกษตรกรของเรา</div>
+    <div>ประสบการณ์ดีๆ จากพี่เกษตรกรที่เข้าร่วม</div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-4 border border-dark">
+        <div class="row ">
+          <div class="col-lg-4 col-sm-4 ">
+            <div>
+              <img src="star.svg" alt="" />
+              <img src="star.svg" alt="" />
+              <img src="star.svg" alt="" />
+              <img src="star.svg" alt="" />
+              <img src="star.svg" alt="" />
             </div>
-        </nav>
-    </header>
+            <div>
+              <img src="people1.svg" alt="">
+            </div>
+            <div>
+              ดิเรก อนันต์โชค
+            </div>
+            <div>
+              ไร่ภูเขียว
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-8 bg-feedback">
+            <div>
+              ช่วยให้อ้อยเยอะขึ้นจริง ลองมาดูที่ Facebook ผมได้เลย
+            </div>
+            <div>
+              "เฮียดิเรก ภูเขียว"
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-4 bg-primary-color border border-dark"">
+            <div class=" row text-light">
+        <div class="col-lg-4 col-sm-4 ">
+          <div>
+            <img src="star.svg" alt="" />
+            <img src="star.svg" alt="" />
+            <img src="star.svg" alt="" />
+            <img src="star.svg" alt="" />
+            <img src="star.svg" alt="" />
+          </div>
+          <div>
+            <img src="people2.svg" alt="">
+          </div>
+          <div>
+            พรรษา สุขสุดใจ
+          </div>
+          <div>
+            ไร่เชียงดาว
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-8 bg-feedback-light">
+          <div>
+            เมื่อก่อนได้ไร่ละ ไม่ถึง 10 ตัน ทุกวันนี้ ได้ไร่ละ 15 ตัน ไม่ง่ายสำหรับทำใหม่แต่ ไม่อยากเกินไปสำหรับเรียนรู้
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-4 border border-dark"">
+            <div class=" row ">
+                <div class=" col-lg-4 col-sm-4 ">
+                    <div> 
+                        <img src=" star.svg" alt="" />
+    <img src="star.svg" alt="" />
+    <img src="star.svg" alt="" />
+    <img src="star.svg" alt="" />
+    <img src="star.svg" alt="" />
+  </div>
+  <div>
+    <img src="people3.svg" alt="">
+  </div>
+  <div>
+    การณ์ไกล มาถึงแล้ว
+  </div>
+  <div>
+    ไร่ด่านช้าง
+  </div>
+  </div>
+  <div class="col-lg-8 col-sm-8 bg-feedback">
+    <div>
+      ผมเข้าเป็นคนแรกๆ ตอนแรกลังเล แต่ตอนนี้ดีใจที่ได้ทำ eCarbon ช่วยให้ ผมทำไร่เหนื่อยหน่อยกว่าเดิมแต่ได้ มากกว่าเก่า
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <!--Partner-->
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-6 col-sm-6">
+        <h2>คำถามที่พบบ่อย</h2>
+        <h5>
+          "หาคำตอบในคำถามทั่วไปเกี่ยวกับเทคโนโลยีการดาวเทียม AI,
+          เครดิตคาร์บอน, และกิจกรรมของเราในประเทศไทย", เครดิตคาร์บอน,
+          และกิจกรรมอื่นๆของ eCarbon ในประเทศไทย"
+        </h5>
+        <button class="btn btn-success btn-outline-light">ติดต่อ</button>
+        <h2>พาร์ทเนอร์ของเรา</h2>
+        <hr />
+        <div>
+          <img src="TGO.svg" alt="" />
+          <img src="Mitr-phol.svg" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-6">
+        <div>
+          <h2>eCarbon มาจากไหน?</h2>
+          <p>
+            eCarbon เป็นตัวกลางในการช่วยเหลือ ดูแล และจัดการข้อมูล
+            เกี่ยวกับการทำเกษตรโดยเฉพาะด้านอ้อยด้วยเทคโนโลยีดาวเทียม และ Ai
+          </p>
+        </div>
+        <div>
+          <h2>คาร์บอนเครดิตคืออะไร?</h2>
+          <p>
+            สิทธิที่เกิดจากการลดปริมาณการปล่อยก๊าซคาร์บอนไดออกไซด์
+            หรือก๊าซเรือนกระจกสู่สิ่งแวดล้อม อันเนื่องมาจากการที่บุคคล หรือ
+            องค์กรได้ดำเนินโครงการหรือมาตรการที่มีเป้าหมายเพื่อลด การ
+            ปล่อยก๊าซคาร์บอนไดออกไซด์หรือก๊าซเรือนกระจกสู่สิ่งแวด ล้อม
+            ซึ่งสิทธิดังกล่าวนี้สามารถวัดปริมาณและ สามารถนำไปซื้อ ขายใน
+            ตลาดซื้อขายคาร์บอนเครดิตได้
+          </p>
+        </div>
+        <div>
+          <h2>โลกร้อนคืออะไร?</h2>
+          <p>
+            ก๊าซเรือนกระจก หรือ GHGs คือสิ่งที่ทำให้เกิดภาวะโลกร้อน เกิดได้จาก
+            กิจกรรมต่างๆในชีวิตประจำวัน รวมไปถึงกิจกรรม ทางการเกษตร อย่างการ
+            ใส่ปุ๋ย ใช้เครื่องยนต์ หรือ แม้แต้การเผา ทำให้เกิด ควัน และกลิ่น
+            ที่แม้จะมองไม่เห็นด้วยตาเปล่า แต่ดาวเทียมสามารถตรวจจับได้
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-sm-3">
+        <div class="single-box">
+          <img src="netzero_icon.svg" alt="" height="100%" width="100%" class="mx-auto d-block" />
+          <div>
+            <h1 class="d-flex justify-content-center">eCARBON</h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-sm-2">
+        <div class="single-box">
+          <h2 class="mt-3">About Us</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-sm-2">
+        <div class="single-box">
+          <h2 class="mt-3">Partners</h2>
+          <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-sm-2">
+        <div class="single-box">
+          <h2 class="mt-3">Event</h2>
+          <ul>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Gallery </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-3">
+        <div class="single-box">
+          <h3 class="mt-3">สมัครรับข้อมูล</h3>
+          <p>เพื่อรับข่าวสารสดใหม่เสมอ</p>
+          <div>
+            <button class="btn btn-success btn-outline-light">
+              E-mail...
+            </button>
+            <button class="btn btn-success btn-outline-light">ตกลง</button>
+          </div>
+          <p>
+            เมื่อกดตกลง
+            ท่านได้แสดงเจตจำนงค์และยอมรับข้อตกลงของทางบริษัทเรียบร้อยแล้ว
+          </p>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary-color">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link"> 2024 eCarbon.All right resered</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Privacy Policy Terms of Service</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Cookie Settings </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> <img src="fb.svg" alt="" /></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> <img src="x.svg" alt="" /></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <img src="linkedin.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
 </body>
 
 </html>
