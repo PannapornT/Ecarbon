@@ -51,11 +51,11 @@
 }
 .bg-feedback {
   background-image: url("bg-feedback.svg");
-  background-size: contain;
+  background-size: cover;
 }
 .bg-feedback-light {
   background-image: url("bg-feedback-green.svg");
-  background-size: contain;
+  background-size: cover;
 }
 .bg-feature-color {
   background-image: linear-gradient(to bottom, #121138, #fff);
@@ -380,5 +380,17 @@
   .head_feedback2{
     font-size: 35px;
     color: #4ebe9d;
+  }
+  .img_star_feedback{
+    margin-top: 10%;
+  }
+  .font_name{
+    font-size: 15px;
+  }
+  .font_feedback{
+    font-size: 20px;
+  }
+  .margin_feedback{
+    margin-top: 10%;
   }
 }
