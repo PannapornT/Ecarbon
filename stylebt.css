@@ -68,10 +68,12 @@
 .bg-feedback-light {
   background-image: url("bg-feedback-green.svg");
   background-size: cover;
+  /* position: relative; */
 }
 
 .bg-feature-color {
   background-image: linear-gradient(to bottom, #121138, #fff);
+  background-position: relative;
 }
 
 .bg-feature-bg2 {
@@ -94,6 +96,13 @@
   width: 95%;
   margin: 0 auto;
   justify-content: center;
+}
+
+.img_feature2 {
+  /* background-image: url("newfeatur2.svg"); */
+  /* background-position: absolute; */
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 576px) {
@@ -745,6 +754,7 @@
     justify-content: flex-end;
     width: 100%;
     height: auto;
+    bottom: 0;
   }
 
   .text_feature_green {
