@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ecarbon</title>
-  <link rel="stylesheet" href="stylebt.css" />
+  <link rel="stylesheet" href="style_index.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -16,19 +16,19 @@
 <body>
   <nav class="bg-primary-color nav-con ">
     <div class="text-light fw-bold font_logo_nav">
-      <img src="netzero_icon.svg" alt="" class="img_nav_logo">eCARBON
+      <img src="pic_index/netzero_icon.svg" alt="" class="img_nav_logo">eCARBON
     </div>
     <div class="display_col">
       <ul class="menu font_nav" style="margin-bottom: 0;">
         <li class="display_col"><a href="#">ผลิตภัณฑ์ และบริการ</a></li>
         <li class="text-light display_col ">|</li>
-        <li class="display_col font_hide_2"><a href="#">การลงทุน</a></li>
+        <li class="display_col font_hide_2"><a href="invest.html">การลงทุน</a></li>
         <li class="text-light display_col font_hide_2">|</li>
         <li class="display_col font_hide_2"><a href="#">ข่าวสาร</a></li>
         <li class="text-light display_col font_hide_2">|</li>
-        <li class="display_col font_hide"><a href="#">เกี่ยวกับเรา</a></li>
+        <li class="display_col font_hide"><a href="Aboutus.html">เกี่ยวกับเรา</a></li>
         <li class="text-light display_col font_hide">|</li>
-        <li class="display_col"><a href="#"><button class="button_nav">ลงทะเบียน / เข้าใช้งาน</button></a></li>
+        <li class="display_col"><a href="Login.html"><button class="button_nav">ลงทะเบียน / เข้าใช้งาน</button></a></li>
       </ul>
     </div>
   </nav>
@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="col-6 d-flex justify-content-start" >
-        <img src="hero.svg" alt="" class=" img_hero"  />
+        <img src="pic_index/hero.svg" alt="" class=" img_hero"  />
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@
     <div class="row part2-color rounded-part2">
       <div class="col-3">
         <div class="single-box">
-          <img src="netzero_icon.svg" alt="" class="img-fluid img_whatisourproduct " />
+          <img src="pic_index/netzero_icon.svg" alt="" class="img-fluid img_whatisourproduct " />
           <div class="text-light">
             <h1 class="ecarbon__whatisourproduct">eCARBON</h1>
           </div>
@@ -89,7 +89,6 @@
 
   <!--feature-->
   <div class="container clearfix mt-5">
-
     <div class="row" style="position: relative;">
       <div class="display">
         <div class="display_head_feature1 fw-bold" >
@@ -112,7 +111,7 @@
             </div>
           </div>
           <div>
-            <img src="newfeaure1.svg" alt="" class="clearfix img-fluid img_feature">
+            <img src="pic_index/newfeaure1.svg" alt="" class="clearfix img-fluid img_feature">
           </div>
         </div>
       </div>
@@ -129,7 +128,7 @@
             </div>
           </div>
 
-          <img src="newfeatur2.svg" alt="" class="clearfix img-fluid img_feature rounded_feature"
+          <img src="pic_index/newfeatur2.svg" alt="" class="clearfix img-fluid img_feature rounded_feature"
             style="position:absolute; z-index: 1;">
 
         </div>
@@ -145,7 +144,7 @@
             </div>
           </div>
           <div>
-            <img src="newfeature3.svg" alt="" class="clearfix img-fluid img_feature">
+            <img src="pic_index/newfeature3.svg" alt="" class="clearfix img-fluid img_feature">
           </div>
         </div>
       </div>
@@ -164,22 +163,22 @@
           </div>
         </div>
       </div>
-      <div class="col-6 ">
-        <div  class="bg_contact" style="height: 80%; width: 90%;">
+      <div class="col-6 d-flex justify-content-center ">
+        <div class="bg_contact margin_contact " style="height: 80%; width: 80%;">
           <div class="fw-bold text-light font_contact_head">
             ติดต่อ eCarbon
           </div>
-          <form action="" >
-            <input type="email" name="E-mail" placeholder="E-mail" class="round_form"><br>
-            <input type="tel" name="tel" id="" placeholder="เบอร์โทร" class="round_form"><br>
-            <input type="text" name="detail" id="" placeholder="รายละเอียด" class="round_form"><br>
-            <input type="checkbox" id="acceptnews" name="acceptnews" value="news">
-            <label for="vehicle1"> ยินยอมรับข่าวสารและโปรโมชั่นจาก eCarbon</label><br>
-            <input type="checkbox" id="acceptinfo" name="acceptinfo" value="info">
-            <label for="vehicle2"> ยินยอมให้ใช้ข้อมูลส่วนตัวเพื่อพัฒนาการตลาด</label><br>
-            <input type="checkbox" id="acceptpolicy" name="acceptpolicy" value="policy">
-            <label for="vehicle3"> <span>ยินยอมและอ่าน</span> <span>ข้อตกลงและนโยบายของ eCarbon</span></label><br><br>
-            <input type="submit" value="ดำเนินการต่อ">
+          <form action="" class="text-light fw-bold ">
+            <input type="email" name="E-mail" placeholder="E-mail" class="round_form contact_width contact_font" ><br>
+            <input type="tel" name="tel" id="" placeholder="เบอร์โทร" class="round_form contact_width contact_font"><br>
+            <input type="text" name="detail" id="" placeholder="รายละเอียด" class="round_form contact_width contact_font"><br>
+            <input type="checkbox" id="acceptnews" name="acceptnews" value="news" class="margin_checkbox">
+            <label for="vehicle1" class="normal_contact"> ยินยอมรับข่าวสารและโปรโมชั่นจาก eCarbon</label><br>
+            <input type="checkbox" id="acceptinfo" name="acceptinfo" value="info" class="margin_checkbox">
+            <label for="vehicle2" class="normal_contact"> ยินยอมให้ใช้ข้อมูลส่วนตัวเพื่อพัฒนาการตลาด</label><br>
+            <input type="checkbox" id="acceptpolicy" name="acceptpolicy" value="policy" class="margin_checkbox">
+            <label for="vehicle3" class="normal_contact"> <span>ยินยอมและอ่าน</span> <span class="font_contact_green">ข้อตกลงและนโยบายของ eCarbon</span></label><br><br>
+            <input type="submit" value="ดำเนินการต่อ" class="round_form contact_width contact_font" style="margin-bottom: 10%;">
           </form>
         </div>
       </div>
@@ -195,10 +194,10 @@
         <div class="row ">
           <div class="col-4">
             <div>
-              <img src="star.svg" alt="" class="img-fluid clearfix display img_star_feedback" />
+              <img src="pic_index/star.svg" alt="" class="img-fluid clearfix display img_star_feedback" />
             </div>
             <div>
-              <img src="people1.svg" alt="" class="img-fluid clearfix mx-auto d-block margin_img" />
+              <img src="pic_index/people1.svg" alt="" class="img-fluid clearfix mx-auto d-block margin_img" />
             </div>
             <div class="display font_name ">
               ดิเรก อนันต์โชค
@@ -221,10 +220,10 @@
         <div class=" row text-light">
           <div class="col-lg-4 col-sm-4 ">
             <div>
-              <img src="star.svg" alt="" class="img-fluid clearfix display img_star_feedback" />
+              <img src="pic_index/star.svg" alt="" class="img-fluid clearfix display img_star_feedback" />
             </div>
             <div>
-              <img src="people2.svg" alt="" class="img-fluid clearfix mx-auto d-block margin_img" />
+              <img src="pic_index/people2.svg" alt="" class="img-fluid clearfix mx-auto d-block margin_img" />
             </div>
             <div class="display font_name">
               พรรษา สุขสุดใจ
@@ -245,10 +244,10 @@
         <div class=" row ">
           <div class=" col-4 ">
             <div>
-              <img src=" star.svg" alt="" class="img-fluid clearfix display img_star_feedback" />
+              <img src=" pic_index/star.svg" alt="" class="img-fluid clearfix display img_star_feedback" />
             </div>
             <div>
-              <img src="people3.svg" alt="" class="img-fluid clearfix mx-auto d-block margin_img" />
+              <img src="pic_index/people3.svg" alt="" class="img-fluid clearfix mx-auto d-block margin_img" />
             </div>
             <div class="display font_name">
               การณ์ไกล มาแล้ว
@@ -283,8 +282,8 @@
         <!-- <hr class="line" /> -->
         <div style="height:2px; width:100%; background-color:black" class="mb-4"></div>
         <div class="single-box mx-auto d-block">
-          <img src="TGO.svg" alt="" class="img-fluid clearfix" />
-          <img src="Mitr-phol.svg" alt="" class="img-fluid clearfix" />
+          <img src="pic_index/TGO.svg" alt="" class="img-fluid clearfix" />
+          <img src="pic_index/Mitr-phol.svg" alt="" class="img-fluid clearfix" />
         </div>
       </div>
       <div class="col-6">
@@ -323,7 +322,7 @@
     <div class="row">
       <div class="col-3">
         <div class="single-box">
-          <img src="netzero_icon.svg" alt="" class="img-fluid clearfix img_footer" />
+          <img src="pic_index/netzero_icon.svg" alt="" class="img-fluid clearfix img_footer" />
           <div>
             <h1 class="d-flex justify-content-center font_logo_footer">eCARBON</h1>
           </div>
@@ -393,14 +392,14 @@
             <a href="#" class="nav-link"> Cookie Settings </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> <img src="fb.svg" alt="" /></a>
+            <a href="#" class="nav-link"> <img src="pic_index/fb.svg" alt="" /></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> <img src="x.svg" alt="" /></a>
+            <a href="#" class="nav-link"> <img src="pic_index/x.svg" alt="" /></a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <img src="linkedin.svg" alt="" /></a>
+              <img src="pic_index/linkedin.svg" alt="" /></a>
           </li>
         </ul>
       </div>
