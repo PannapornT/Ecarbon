@@ -32,6 +32,16 @@
   list-style: none;
   padding: 0;
 }
+.img_team{
+  margin: 0 0 0 ;
+}
+.col-size{
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+}
+
+
 @media screen and (max-width: 576px) {
 /* navbar */
   .img_nav_logo {
@@ -124,7 +134,7 @@
   }
 }
 @media screen and (min-width: 1200px) {
-      /* navbar */
+  /* navbar */
   .img_nav_logo {
     width: 72px;
     height: 72px;
@@ -144,5 +154,13 @@
   }
   .font_logo_nav{
     font-size: 20px;
+  }
+  /* our team */
+  /* .box_size_our_team{ */
+    /* width: 90%; */
+    /* height: auto; */
+  /* } */
+  .bg_box_team{
+    background-image: linear-gradient(to top, #31686B, #fff);
   }
 }
