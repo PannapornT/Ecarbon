@@ -40,7 +40,10 @@
   justify-content: space-between;
   gap: 2%;
 }
-
+.bg_footer {
+  background-image: url("pic_aboutus/footer.svg");
+  background-size: cover;
+}
 
 @media screen and (max-width: 576px) {
 /* navbar */
@@ -162,5 +165,9 @@
   /* } */
   .bg_box_team{
     background-image: linear-gradient(to top, #31686B, #fff);
+  }
+  .bg_coin{
+    width: 75%;
+    height: 75%;
   }
 }
