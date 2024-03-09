@@ -170,4 +170,7 @@
     width: 75%;
     height: 75%;
   }
+  .display{
+    align-items: flex-end;
+  }
 }
