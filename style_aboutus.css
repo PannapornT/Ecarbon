@@ -91,6 +91,10 @@
   width: 80%;
   height: 100%;
 }
+.bg_user{
+  background-color: #121138;
+  opacity: 70%;
+}
 @media screen and (max-width: 576px) {
   /* navbar */
   .img_nav_logo {
@@ -220,5 +224,31 @@
   }
   .font_team{
     font-size: 25px;
+  }
+  /* footer */
+  .font_ecarbontoken{
+    font-size: 25px;
+    color: black;
+  }
+  .margin_footer{
+    margin: 2% 0 0 5%;
+  }
+  .box_size_user{
+    width: 40%;
+    height: 40px;
+  }
+  .font_user{
+    font-size: 20px;
+    color: white;
+  }
+  .font_no_user{
+    color: #4EBE9D;
+  }
+  .radius_user{
+    border-radius: 8px;
+  }
+  .font_normal{
+    color: white;
+    font-size: 20px;
   }
 }
