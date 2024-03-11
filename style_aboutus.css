@@ -251,4 +251,23 @@
     color: white;
     font-size: 20px;
   }
+  .text_shadow{
+    text-shadow: 0px 0px 4px black;
+  }
+  .img_ecoin{
+    width: 70%;
+    height:70%;
+  }
+  .img_gold_std{
+    width: 80%;
+    height: 80%;
+  }
+  .img_ver_co2_std{
+    width: 80%;
+    height: 80%;
+  }
+  .img_tver{
+    width: 50%;
+    height: 50%; 
+  }
 }
