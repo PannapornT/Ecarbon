@@ -11,10 +11,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <nav class="bg-primary-color nav-con ">
+  <!-- display: none; -->
+  <nav class="bg-primary-color nav-con display_old" >
     <div class="text-light fw-bold font_logo_nav">
       <img src="pic_index/netzero_icon.svg" alt="" class="img_nav_logo">eCARBON
     </div>
@@ -33,8 +35,39 @@
     </div>
   </nav>
   <!--finish navbar-->
-  <!-- Hero page-->
+  <!-- nav mobile -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+  <nav class="bg-primary-color nav-con display_mobile">
+      <div class="text-light fw-bold font_logo_nav">
+          <img src="pic_index/netzero_icon.svg" alt="" class="img_nav_logo">eCARBON
+      </div>
+      <div class="topnav display_col">
+        <div class="d-flex justify-content-end">
+          <a href="javascript:void(0);" class="icon " onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <div id="myLinks">
+          <a href="#">ผลิตภัณฑ์ และบริการ</a>
+          <a href="invest.html">การลงทุน</a>
+          <a href="news.html">ข่าวสาร</a>
+          <a href="Aboutus.html">เกี่ยวกับเรา</a>
+        </div>
+      </div>
+  </nav>
+  <!-- finish nav mobile -->
   <div class="container">
+  <!-- Hero page-->
+
     <div class="row " style="justify-content: space-between;">
       <div class="col-6 ">
         <div class="hero-color box_hero bg-image-hero " >
@@ -62,17 +95,15 @@
   </div>
   <!--part 2 What is our product-->
   <div class="container mt-5">
-    <div class="row part2-color rounded-part2">
+    <div class="row part2-color rounded-part2" style="margin-left: 2%; margin-right: 2%;">
       <div class="col-3">
-        <div class="single-box">
           <img src="pic_index/netzero_icon.svg" alt="" class="img-fluid img_whatisourproduct " />
           <div class="text-light">
             <h1 class="ecarbon__whatisourproduct">eCARBON</h1>
           </div>
-        </div>
+      
       </div>
       <div class="col-9">
-        <div class="single-box">
           <h3 class=" text-light font_whatisourproduct">
             จากสภาพภูมิอากาศที่เปลี่ยนแปลงส่งผลกระทบต่อทั้งคุณภาพเกษตรกร
             ยังส่งผลให้คุณภาพและปริมาณผลผลิตทาง การเกษตรลงลดด้วย eCARBON
@@ -82,13 +113,12 @@
             ได้ทั้งพัฒนาคุณภาพชีวิต คุณภาพทางการเงิน และ
             คุณภาพของสภาพอากาศของโลกเรา
           </h3>
-        </div>
       </div>
     </div>
   </div>
 
   <!--feature-->
-  <div class="container clearfix mt-5">
+  <div class="container clearfix mt-5 display_old">
     <div class="row" style="position: relative;">
       <div class="display">
         <div class="display_head_feature1 fw-bold" >
@@ -148,6 +178,63 @@
       </div>
     </div>
   </div>
+  <!-- feature mobile-->
+  <div class="display_mobile">
+    <div class="d-flex d-flex justify-content-center mt-3 head_feature_mobile fw-bold">
+      เครื่องมือสู่ความยั่งยืน
+    </div>
+    <div class="d-flex d-flex justify-content-center mt-2 head_feature_mobile fw-bold">
+      “สรรค์สร้างด้วยมือเรา”
+    </div>
+    <div class="horizontal_slider">
+      <div class="slider_con" >
+        <div class="item" style="position:relative">
+          <div class="size_slide_box radius_box_feature bg-feature-color"> 
+           <div class="text_feature_green fw-bold">
+            <br>
+            เทคโนโลยี AI
+           </div>
+            <p class="text_feture_normal " style="position:absolute; z-index:10;">
+              ช่วยวิเคราะห์หาทางออกแนะนำวิธีการ  ทำให้เกษตรกรเกี่ยวกับการทำ 
+              เกษตรและการใช้งานได้ 24 ชั่วโมง
+             </p>
+           <div>
+            <img src="Ai_mobile.svg" alt="" class="clearfix img-fluid img_feature" style="position:absolute; z-index: 1;">
+           </div>
+          </div>
+        </div>
+        <div class="item" style="position:relative">
+          <div class="size_slide_box radius_box_feature bg-feature-color" > 
+              <div class="text_feature_green fw-bold">
+                <br>
+                เทคโนโลยีดาวเทียม
+               </div>
+                <p class="text_feture_normal " style="position:absolute; z-index:10;">
+                  ตรวจสอบครอบคลุมทั้งไร่ พร้อมภาพแสดงความเปลี่ยนแปลง ที่แม่นยำ
+                 </p> 
+           <div>
+            <img src="satellite_mobile.svg" alt="" class="clearfix img-fluid img_feature" style="position:absolute; z-index: 1;">
+           </div>
+          </div>
+        </div>
+        <div class="item" style="position:relative">
+          <div class="size_slide_box radius_box_feature bg-feature-color" > 
+           <div class="text_feature_green fw-bold">
+            <br>
+            เติมเต็มช่วยเกษตรกร
+           </div>
+            <p class="text_feture_normal" style="position:absolute; z-index:10;" >
+              บริการเสริม ช่วยเหลือ และสนับสนุนอุปกรณ์ วัตถุดิบ การทำเกษตรในทุกด้าน ครบวงจร
+            </p>
+           <div>
+            <img src="ferti_mobile.svg" alt="" class="clearfix img-fluid img_feature" style="position:absolute; z-index: 1;">
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- finish FEATURE -->
   <!-- map -->
   <div class="container mt-5">
     <div class="row bg-map-color">
