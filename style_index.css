@@ -346,15 +346,15 @@
     display: inline-block;
     margin: 10px 0 0 0;
 }
-.size_slide_box{
+.size_slide_box_mobile{
     width: 350px;
     height: 350px;
 }
-.bg-feature-color {
+.bg-feature-color_mobile {
     background-image: linear-gradient(to bottom, #121138, #fff);
     background-position: relative;
   }
-.img_feature {
+.img_feature_mobile {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -363,20 +363,20 @@
     bottom: 0;
   }
 
-.text_feature_green {
+.text_feature_green_mobile {
     font-size: 16px;
     color: #4ebe9d;
     margin-top: 0%;
     margin-left: 10%;
     margin-right: 15%;
   }
-  .text_feture_normal {
+  .text_feture_normal_mobile {
     margin: 5% 10% 0 10%;
     text-wrap: wrap;
     font-size: 14px;
     color: #fff;
   }
-  .radius_box_feature{
+  .radius_box_feature_mobile{
     border-radius: 8%;
   }
 .head_feature_mobile{
