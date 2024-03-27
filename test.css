@@ -95,7 +95,26 @@
 .head_feature_mobile{
   font-size: 16px;
 }
-
+/* feedback */
+.bg_head_feedback{
+  background-color: #121138;
+}
+.text_feedback_name_mobile{
+  font-size: 12px;
+}
+.text_feedbac_mobile{
+  font-size: 12px;
+  color: #121138;
+}
+.bg_feedback_mobile{
+  background-image: url("pic_index/bg_feedback.svg");
+  background-size: cover;
+}
+.radius_box_feedback{
+  border: 2px;
+  border-style: solid;
+  border-color: #121138;
+}
 @media screen and (max-width: 650px){
   .font_hide{
     font-size: 0px;
