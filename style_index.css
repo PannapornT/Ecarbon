@@ -174,11 +174,11 @@
   /*hero*/
   .font_hero {
     margin-left: 10%;
-    font-size: 13px;
+    font-size: 10px;
   }
   .font_hero_below {
     margin: 10% 10% 10% 10%;
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .button_hero {
@@ -186,7 +186,7 @@
     color: #fff;
     font-size: 10px;
     border-radius: 15px;  
-    padding: 5px 20px;
+    padding: 5px 10px;
     box-shadow: 0px 4px 10px 0px rgba(172, 225, 223, 0.5);
     text-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
   }
@@ -523,6 +523,18 @@
   }
   .margin_feedback_mobile{
     margin-bottom: 0;
+  }
+  /* footer mobile */
+  .font_logo_footer_mobile{
+    font-size: 15px;
+    color: #121138;
+  }
+  .text_clear{
+    text-decoration: none;
+    color: #121138;
+  }
+  .font_nav_footer{
+    font-size: 5px;
   }
 }
 
