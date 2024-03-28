@@ -35,6 +35,31 @@
 .margin_text_news{
   margin-top: 5%;
 }
+.border_new{
+  border: 2px solid;
+  border-color: #121138;
+}
+.bg_color_news{
+  background-color:#B1E7D7;
+}
+.font_news{
+  font-size: 15px;
+}
+.button {
+  background-color: #4ebe9d;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 2px;
+  padding:2px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 650px){
   .font_hide{
     font-size: 0px;
@@ -73,6 +98,7 @@
   .font_normal{
     font-size: 10px;
   }
+
 }
 @media screen and (min-width: 576px) {
       /* navbar */
