@@ -223,9 +223,7 @@ a:hover{
   .font_head{
     font-size: 40px;
     text-align: center;
-    /* margin : 2%; */
-    text-shadow: 4px 4px #959494;
-    color: #fff;
+    color:#121138;
   }
   .font_normal{
     font-size: 20px;
