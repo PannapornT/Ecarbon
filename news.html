@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
   <nav class="bg-primary-color nav-con display_old">
     <div class="text-light fw-bold font_logo_nav">
       <a href="index.html"><img src="pic_index/netzero_icon.svg" alt="" class="img_nav_logo">eCARBON</a>
@@ -37,7 +37,7 @@
   <!--finish navbar-->
   <!-- nav mobile -->
   <script>
-    function myFunction() {
+    function myFunction_nav() {
       var x = document.getElementById("myLinks");
       if (x.style.display === "block") {
         x.style.display = "none";
@@ -52,7 +52,7 @@
     </div>
     <div class="topnav display_col">
       <div class="d-flex justify-content-end">
-        <a href="javascript:void(0);" class="icon " onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon " onclick="myFunction_nav()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
@@ -66,7 +66,7 @@
   </nav>
   <!-- finish nav mobile -->
   <!-- first news -->
-  <div class="container-fluid mt-2 mb-3">
+  <div class="container-fluid mt-3 mb-3" style="flex: 1;">
     <!-- <br> -->
     <!-- <div class="container-fluid" style="height: 2px; background-color: #121138; "></div>
       <div class="container-fluid" style="height: 10px; background-color: #fff; "></div>
@@ -79,8 +79,8 @@
       <div class="container-fluid" style="height: 2px; background-color: #121138; "></div> -->
       <br>
     </div>
-    <div class="container">
-      <div class="row " style="padding: 0%;">
+    <div class="container col6">
+      <div class="row mt-3" style="padding: 0%;">
         <div class="col-4 " style=" padding: 0%;">
           <div class="box_news ">
             <div class="">
@@ -103,12 +103,12 @@
                 มิตรผล ประกาศรับซื้อใบอ้อยสดหลังตัด ผลิตไฟฟ้าชีวมวล สู้สุดใจไปด้วยกัน ตัดอ้อยสดลดฝุ่น PM2.5
               </div>
             </div>
-            <div class="flex_news margin_read " >
-              <a href="2nd_news.html" class="read fw-bold  font_read" >อ่านต่อ</a>
+            <div class="flex_news margin_read ">
+              <a href="2nd_news.html" class="read fw-bold  font_read">อ่านต่อ</a>
             </div>
           </div>
         </div>
-        <div class="col-4 " style=" padding: 0%;">
+        <div class="col-4  " style=" padding: 0%;">
           <div class="box_news ">
             <div class="">
               <img src="pic_news/2nd_news1.jpg" alt="" class="img-fluid border_img ">
@@ -123,7 +123,131 @@
           </div>
         </div>
       </div>
+      <div class="row mt-3 " id="more" style="padding: 0%; display: none;">
+        <div class="col-4  " style="  padding: 0%;">
+          <div class="box_news">
+            <div>
+              <img src="pic_news/new2_hori.svg" alt="" class="img-fluid border_img">
+              <div class="margin_text_news font_normal">
+                มิตรผล ประกาศรับซื้อใบอ้อยสดหลังตัด ผลิตไฟฟ้าชีวมวล สู้สุดใจไปด้วยกัน ตัดอ้อยสดลดฝุ่น PM2.5
+              </div>
+            </div>
+            <div class="flex_news margin_read ">
+              <a href="2nd_news.html" class="read fw-bold  font_read">อ่านต่อ</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- col-6 -->
+    <div class="col4">
+      <div class="container ">
+        <div class="row mt-3" style="padding: 0%;">
+          <div class="col-6 " style=" padding: 0%;">
+            <div class="box_news ">
+              <div class="">
+                <img src="pic_news/2nd_news1.jpg" alt="" class="img-fluid border_img ">
+                <div class="margin_text_news font_normal">
+                  กลุ่มมิตรผลเดินหน้ารับซื้อใบอ้อยเพื่อเปลี่ยนเป็นพลังงานทดแทน หลังเป็นผู้บุกเบิกต่อเนื่องมากว่า 6 ปี
+                  พร้อมส่งเสริมการตัดอ้อยสดคุณภาพดีตลอดฤดูหีบ 66/67
+                </div>
+              </div>
+              <div class="flex_news margin_read ">
+                <a href="1st_news.html" class="read fw-bold  font_read">อ่านต่อ</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6  " style="  padding: 0%;">
+            <div class="box_news">
+              <div>
+                <img src="pic_news/new2_hori.svg" alt="" class="img-fluid border_img">
+                <div class="margin_text_news font_normal">
+                  มิตรผล ประกาศรับซื้อใบอ้อยสดหลังตัด ผลิตไฟฟ้าชีวมวล สู้สุดใจไปด้วยกัน ตัดอ้อยสดลดฝุ่น PM2.5
+                </div>
+              </div>
+              <div class="flex_news margin_read ">
+                <a href="2nd_news.html" class="read fw-bold  font_read">อ่านต่อ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- more -->
+      <div id="more2" style="display: none;">
+        <div class="container col4">
+          <div class="row mt-3" style="padding: 0%;">
+            <div class="col-6 " style=" padding: 0%;">
+              <div class="box_news ">
+                <div class="">
+                  <img src="pic_news/2nd_news1.jpg" alt="" class="img-fluid border_img ">
+                  <div class="margin_text_news font_normal">
+                    กลุ่มมิตรผลเดินหน้ารับซื้อใบอ้อยเพื่อเปลี่ยนเป็นพลังงานทดแทน หลังเป็นผู้บุกเบิกต่อเนื่องมากว่า 6 ปี
+                    พร้อมส่งเสริมการตัดอ้อยสดคุณภาพดีตลอดฤดูหีบ 66/67
+                  </div>
+                </div>
+                <div class="flex_news margin_read ">
+                  <a href="1st_news.html" class="read fw-bold  font_read">อ่านต่อ</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6  " style="  padding: 0%;">
+              <div class="box_news">
+                <div>
+                  <img src="pic_news/new2_hori.svg" alt="" class="img-fluid border_img">
+                  <div class="margin_text_news font_normal">
+                    มิตรผล ประกาศรับซื้อใบอ้อยสดหลังตัด ผลิตไฟฟ้าชีวมวล สู้สุดใจไปด้วยกัน ตัดอ้อยสดลดฝุ่น PM2.5
+                  </div>
+                </div>
+                <div class="flex_news margin_read ">
+                  <a href="2nd_news.html" class="read fw-bold font_read">อ่านต่อ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col6">
+      <div class="mt-3 d-flex justify-content-center">
+        <button onclick="myFunction()" id="myBtn" class="button font_readmore fw-bold">ดูเพิ่มเติม</button>
+      </div>
+    </div>
+    <div class="col4">
+      <div class="mt-3 d-flex justify-content-center">
+        <button onclick="myFunction2()" id="myBtn2" class="button font_readmore fw-bold">ดูเพิ่มเติม</button>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (moreText.style.display === "inline") {
+          btnText.innerHTML = "ดูเพิ่มเติม";
+          moreText.style.display = "none";
+        }
+        else {
+          btnText.innerHTML = "ดูน้อยลง";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+    <script>
+      function myFunction2() {
+        var moreText2 = document.getElementById("more2");
+        var btnText2 = document.getElementById("myBtn2");
+
+        if (moreText2.style.display === "inline") {
+          btnText2.innerHTML = "ดูเพิ่มเติม";
+          moreText2.style.display = "none";
+        }
+        else {
+          btnText2.innerHTML = "ดูน้อยลง";
+          moreText2.style.display = "inline";
+        }
+      }
+    </script>
     <!-- Footer
     <footer class="container-fluid display_old">
       <div class="row">
@@ -210,49 +334,78 @@
         </ul>
       </nav>
     </footer> -->
-    <!-- footer mobile -->
-    <footer class="container display_mobile">
-      <div class="row ">
-        <div class="col-4 ">
-          <div class=" d-flex justify-content-center mt-0 ms-3">
-            <img src="pic_index/netzero_icon.svg" alt="" class=" clearfix img-fluid "
-              style="height: 100%; width: 100%;">
-          </div>
-          <div class="d-flex justify-content-center ms-3 fw-bold">eCARBON</div>
-        </div>
-        <div class="col-8">
-          <div class="fw-bold text_head_footer">
-            สมัครรับข้อมูล
-          </div>
-          <div class="text_subhead_footer fw-bold">
-            เพื่อรับข่าวสารสดใหม่เสมอ
-          </div>
-          <button class="button button_footer">E-mail...</button>
-          <button class="button button_footer">ตกลง</button>
-          <div class="text_explain_footer">
-            เมื่อกดตกลง ท่านได้แสดงเจตจำนงค์และยอมรับข้อตกลงของทาง บริษัทเรียบร้อยแล้ว
-          </div>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center mt-2 mb-2">
-        <div class="col-3 d-flex justify-content-center">
-          <img src="pic_index/fb.svg" alt="" class="img-fluid clearfix" style="height: 100%; width: 100%;">
-          &ensp;
-          <img src="pic_index/x.svg" alt="" class="img-fluid clearfix" style="height: 100%; width: 100%;">
-          &ensp;
-          <img src="pic_index/linkedin.svg" alt="" class="img-fluid clearfix" style="height: 100%; width: 100%;">
-        </div>
-      </div>
-    </footer>
-    <nav class="bg-primary-color container-fluid pt-2 pb-2 display_mobile">
-      <div class="display_col nav-con">
-        <ul class="menu font_nav d-flex flex-row justify-content-between" style="margin-bottom: 0;">
-          <li class="display_col"><a href="#" class="font_nav_footer ">2024 eCarbon.All right resered</a></li>
-          <li class="display_col"><a href="#" class="font_nav_footer ">Privacy Policy Terms of Service</a></li>
-          <li class="display_col"><a href="#" class="font_nav_footer ">Cookie Settings</a></li>
-        </ul>
-      </div>
+    <!-- <br><br><br><br><br><br><br><br><br> -->
+  </div>
+  <!-- <div style="width: 100%; height: 20px; background-color: red;"></div> -->
+  <footer>
+    <nav class="navbar navbar-expand navbar-dark bg-primary-color container-fluid display_old"
+      style="  bottom:0; left: 0;">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a href="#" class="nav-link font_nav_footer "> 2024 eCarbon.All right resered</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> Privacy Policy Terms of Service</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> Cookie Settings </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <img src="pic_index/fb.svg" alt="" /></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <img src="pic_index/x.svg" alt="" /></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <img src="pic_index/linkedin.svg" alt="" /></a>
+        </li>
+      </ul>
     </nav>
+  </footer>
+
+  <!-- footer mobile -->
+  <footer class="container display_mobile">
+    <!-- <div class="row" style="bottom: 0;">
+      <div class="col-4 ">
+        <div class=" d-flex justify-content-center mt-0 ms-3">
+          <img src="pic_index/netzero_icon.svg" alt="" class=" clearfix img-fluid " style="height: 100%; width: 100%;">
+        </div>
+        <div class="d-flex justify-content-center ms-3 fw-bold">eCARBON</div>
+      </div>
+      <div class="col-8">
+        <div class="fw-bold text_head_footer">
+          สมัครรับข้อมูล
+        </div>
+        <div class="text_subhead_footer fw-bold">
+          เพื่อรับข่าวสารสดใหม่เสมอ
+        </div>
+        <button class="button button_footer">E-mail...</button>
+        <button class="button button_footer">ตกลง</button>
+        <div class="text_explain_footer">
+          เมื่อกดตกลง ท่านได้แสดงเจตจำนงค์และยอมรับข้อตกลงของทาง บริษัทเรียบร้อยแล้ว
+        </div>
+      </div>
+    </div> -->
+    <div class="row d-flex justify-content-center mt-2 mb-2">
+      <div class="col-3 d-flex justify-content-center">
+        <img src="pic_index/fb.svg" alt="" class="img-fluid clearfix" style="height: 100%; width: 100%;">
+        &ensp;
+        <img src="pic_index/x.svg" alt="" class="img-fluid clearfix" style="height: 100%; width: 100%;">
+        &ensp;
+        <img src="pic_index/linkedin.svg" alt="" class="img-fluid clearfix" style="height: 100%; width: 100%;">
+      </div>
+    </div>
+  </footer>
+  <nav class="bg-primary-color container-fluid pt-2 pb-2 display_mobile">
+    <div class="display_col nav-con">
+      <ul class="menu font_nav d-flex flex-row justify-content-between" style="margin-bottom: 0;">
+        <li class="display_col"><a href="#" class="font_nav_footer ">2024 eCarbon.All right resered</a></li>
+        <li class="display_col"><a href="#" class="font_nav_footer ">Privacy Policy Terms of Service</a></li>
+        <li class="display_col"><a href="#" class="font_nav_footer ">Cookie Settings</a></li>
+      </ul>
+    </div>
+  </nav>
 </body>
 
 </html>

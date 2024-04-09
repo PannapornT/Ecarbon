@@ -90,6 +90,9 @@
 @media screen and (max-width: 576px) {
   .display_old {
     display: none;
+    height: 0px;
+    opacity: 0;
+    width: 0px;
   }
 /* navbar */
 .img_nav_logo {
